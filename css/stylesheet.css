@@ -1,0 +1,23 @@
+.opening {
+    font-size: xx-large;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+}
+
+.section {
+    font-size: xx-large;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+}
+
+.button {
+    font-size: medium;
+    align: center;
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+}
