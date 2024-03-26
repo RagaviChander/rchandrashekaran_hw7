@@ -4,6 +4,7 @@
     width: 85%;
     margin: auto;
     padding: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .section {
@@ -29,8 +30,43 @@
 }
 
 body { 
-    background: #eabae3;
-    color: #dcace4; 
+    background: #ffffff;
+    color: #000000; 
 }
+
+.fontawesome {
+    font-size: 1.15rem;
+    color: #333333;
+ }
+
+ .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 200px;
+background-color: #333333;
+color: #f8f8f8;
+font-size: 1.15rem;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+border-radius: 6px;
+padding: 15px;
+
+/* Position the tooltip text */
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -100px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+       
 
 
